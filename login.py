@@ -3,8 +3,6 @@ ventana = Tk()
 ventana.config(bg="#3CB371")
 miFrame= Frame(ventana,width=200,height=200)
 miFrame.pack()
-
-#HOLA
 la1 = Label(miFrame, text="Usuario:")
 la1.grid(row=0, column=0, pady=10, padx=10)
 la2=Label(miFrame, text="password")
